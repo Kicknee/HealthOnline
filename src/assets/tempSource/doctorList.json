@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Dr. Łukasz Sikorski",
+    "specialization": "Chirurgia ogólna",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja chirurgiczna", "price": 300 },
+      { "service": "Zabieg usunięcia wyrostka robaczkowego", "price": 2500 },
+      { "service": "Operacja przepukliny", "price": 1800 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Marta Jankowska",
+    "specialization": "Chirurgia ogólna",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja chirurgiczna", "price": 300 },
+      { "service": "Zabieg usunięcia wyrostka robaczkowego", "price": 2500 },
+      { "service": "Operacja przepukliny", "price": 1800 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Michał Kwiatkowski",
+    "specialization": "Chirurgia ogólna",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja chirurgiczna", "price": 300 },
+      { "service": "Zabieg usunięcia wyrostka robaczkowego", "price": 2500 },
+      { "service": "Operacja przepukliny", "price": 1800 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Agata Woźniak",
+    "specialization": "Chirurgia plastyczna",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja chirurgii plastycznej", "price": 300 },
+      { "service": "Zabieg liposukcji", "price": 3500 },
+      { "service": "Powiększenie piersi", "price": 5000 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Robert Kaczmarczyk",
+    "specialization": "Chirurgia plastyczna",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja chirurgii plastycznej", "price": 300 },
+      { "service": "Zabieg liposukcji", "price": 3500 },
+      { "service": "Powiększenie piersi", "price": 5000 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Anna Nowicka",
+    "specialization": "Dermatologia",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja dermatologiczna", "price": 180 },
+      { "service": "Cryoterapia", "price": 120 },
+      { "service": "Usunięcie znamion", "price": 350 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Maria Lewandowska",
+    "specialization": "Dermatologia",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja dermatologiczna", "price": 180 },
+      { "service": "Cryoterapia", "price": 120 },
+      { "service": "Usunięcie znamion", "price": 350 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Michał Zając",
+    "specialization": "Dermatologia",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja dermatologiczna", "price": 180 },
+      { "service": "Cryoterapia", "price": 120 },
+      { "service": "Usunięcie znamion", "price": 350 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Artur Tomczyk",
+    "specialization": "Dermatologia estetyczna",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja dermatologii estetycznej", "price": 280 },
+      { "service": "Iniekcje botoksu", "price": 800 },
+      { "service": "Zabieg oczyszczania skóry", "price": 200 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Iwona Kowalczyk",
+    "specialization": "Dermatologia estetyczna",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja dermatologii estetycznej", "price": 280 },
+      { "service": "Iniekcje botoksu", "price": 800 },
+      { "service": "Zabieg oczyszczania skóry", "price": 200 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Ewelina Zielińska",
+    "specialization": "Endokrynologia",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja endokrynologiczna", "price": 200 },
+      { "service": "Badanie poziomu hormonów", "price": 250 },
+      { "service": "USG tarczycy", "price": 180 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Joanna Sikorska",
+    "specialization": "Endokrynologia",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja endokrynologiczna", "price": 200 },
+      { "service": "Badanie poziomu hormonów", "price": 250 },
+      { "service": "USG tarczycy", "price": 180 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Robert Król",
+    "specialization": "Endokrynologia",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja endokrynologiczna", "price": 200 },
+      { "service": "Badanie poziomu hormonów", "price": 250 },
+      { "service": "USG tarczycy", "price": 180 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Natalia Woźniak",
+    "specialization": "Geriatria",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja geriatryczna", "price": 200 },
+      { "service": "Badanie poziomu hormonów", "price": 250 },
+      { "service": "USG tarczycy", "price": 180 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Piotr Majewski",
+    "specialization": "Geriatria",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja geriatryczna", "price": 200 },
+      { "service": "Badanie poziomu hormonów", "price": 250 },
+      { "service": "USG tarczycy", "price": 180 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Aleksandra Nowak",
+    "specialization": "Ginekologia",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja ginekologiczna", "price": 200 },
+      { "service": "Badanie cytologiczne", "price": 100 },
+      { "service": "USG narządu rodnego", "price": 250 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Jakub Nowicki",
+    "specialization": "Ginekologia",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja ginekologiczna", "price": 200 },
+      { "service": "Badanie cytologiczne", "price": 100 },
+      { "service": "USG narządu rodnego", "price": 250 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Katarzyna Kaczmarek",
+    "specialization": "Ginekologia",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja ginekologiczna", "price": 200 },
+      { "service": "Badanie cytologiczne", "price": 100 },
+      { "service": "USG narządu rodnego", "price": 250 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Kamila Majewska",
+    "specialization": "Ginekologia położnicza",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja ginekologiczno-położnicza", "price": 220 },
+      { "service": "Badanie USG ciąży", "price": 250 },
+      { "service": "Poród naturalny", "price": 3500 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Mateusz Majewski",
+    "specialization": "Ginekologia położnicza",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja ginekologiczno-położnicza", "price": 220 },
+      { "service": "Badanie USG ciąży", "price": 250 },
+      { "service": "Poród naturalny", "price": 3500 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Anna Kowalska",
+    "specialization": "Kardiologia",
+    "sex": "female",
+    "services": [
+      { "service": "Badanie EKG", "price": 150 },
+      { "service": "Echo serca", "price": 300 },
+      { "service": "Konsultacja", "price": 200 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Paweł Nowicki",
+    "specialization": "Kardiologia",
+    "sex": "male",
+    "services": [
+      { "service": "Badanie EKG", "price": 150 },
+      { "service": "Echo serca", "price": 300 },
+      { "service": "Konsultacja", "price": 200 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Piotr Kaczmarczyk",
+    "specialization": "Kardiologia",
+    "sex": "male",
+    "services": [
+      { "service": "Badanie EKG", "price": 150 },
+      { "service": "Echo serca", "price": 300 },
+      { "service": "Konsultacja", "price": 200 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Paulina Nowakowska",
+    "specialization": "Kardiologia dziecięca",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja kardiologiczna dziecięca", "price": 200 },
+      { "service": "Echo serca u dzieci", "price": 350 },
+      { "service": "Zabieg korekcji wrodzonej wady serca", "price": 6000 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Wojciech Nowakowski",
+    "specialization": "Kardiologia dziecięca",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja kardiologiczna dziecięca", "price": 200 },
+      { "service": "Echo serca u dzieci", "price": 350 },
+      { "service": "Zabieg korekcji wrodzonej wady serca", "price": 6000 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Agnieszka Zielińska",
+    "specialization": "Neurochirurgia",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja neurochirurgiczna", "price": 350 },
+      { "service": "Operacja guza mózgu", "price": 8000 },
+      { "service": "Laminektomia", "price": 4000 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Marcin Sikorski",
+    "specialization": "Neurochirurgia",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja neurochirurgiczna", "price": 350 },
+      { "service": "Operacja guza mózgu", "price": 8000 },
+      { "service": "Laminektomia", "price": 4000 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Anna Król",
+    "specialization": "NeStomatologia",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja neurologiczna", "price": 250 },
+      { "service": "EEG", "price": 400 },
+      { "service": "Tomografia komputerowa mózgu", "price": 800 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Jan Kowalczyk",
+    "specialization": "NeStomatologia",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja neurologiczna", "price": 250 },
+      { "service": "EEG", "price": 400 },
+      { "service": "Tomografia komputerowa mózgu", "price": 800 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Łukasz Nowacki",
+    "specialization": "NeStomatologia",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja neurologiczna", "price": 250 },
+      { "service": "EEG", "price": 400 },
+      { "service": "Tomografia komputerowa mózgu", "price": 800 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Aleksandra Kowalczyk",
+    "specialization": "Okulistyka",
+    "sex": "female",
+    "services": [
+      { "service": "Badanie wzroku", "price": 100 },
+      { "service": "Okulistyka dziecięca", "price": 200 },
+      { "service": "Laserowa korekcja wzroku", "price": 2000 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Paweł Sikorski",
+    "specialization": "Okulistyka",
+    "sex": "male",
+    "services": [
+      { "service": "Badanie wzroku", "price": 100 },
+      { "service": "Okulistyka dziecięca", "price": 200 },
+      { "service": "Laserowa korekcja wzroku", "price": 2000 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Piotr Szymański",
+    "specialization": "Okulistyka",
+    "sex": "male",
+    "services": [
+      { "service": "Badanie wzroku", "price": 100 },
+      { "service": "Okulistyka dziecięca", "price": 200 },
+      { "service": "Laserowa korekcja wzroku", "price": 2000 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Michał Adamczyk",
+    "specialization": "Onkologia",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja onkologiczna", "price": 300 },
+      { "service": "Chemioterapia", "price": 2000 },
+      { "service": "Radioterapia", "price": 1500 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Piotr Majewski",
+    "specialization": "Onkologia",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja onkologiczna", "price": 300 },
+      { "service": "Chemioterapia", "price": 2000 },
+      { "service": "Radioterapia", "price": 1500 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Jan Nowak",
+    "specialization": "Ortopedia",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja ortopedyczna", "price": 250 },
+      { "service": "Badanie rentgenowskie", "price": 180 },
+      { "service": "Zabieg chirurgiczny", "price": 1000 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Monika Grabowska",
+    "specialization": "Ortopedia",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja ortopedyczna", "price": 250 },
+      { "service": "Badanie rentgenowskie", "price": 180 },
+      { "service": "Zabieg chirurgiczny", "price": 1000 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Jan Sikora",
+    "specialization": "Ortopedia dziecięca",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja ortopedyczna dziecięca", "price": 250 },
+      { "service": "Badanie rezonansem magnetycznym", "price": 600 },
+      {
+        "service": "Zabieg korekcji wrodzonej wady ortopedycznej",
+        "price": 5000
+      }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Magdalena Sikorska",
+    "specialization": "Ortopedia dziecięca",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja ortopedyczna dziecięca", "price": 250 },
+      { "service": "Badanie rezonansem magnetycznym", "price": 600 },
+      {
+        "service": "Zabieg korekcji wrodzonej wady ortopedycznej",
+        "price": 5000
+      }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Ewa Malinowska",
+    "specialization": "Pediatria",
+    "sex": "female",
+    "services": [
+      { "service": "Badanie wizualne niemowląt", "price": 80 },
+      { "service": "Konsultacja pediatryczna", "price": 150 },
+      { "service": "Szczepienia", "price": 50 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Katarzyna Woźniak",
+    "specialization": "Pediatria",
+    "sex": "female",
+    "services": [
+      { "service": "Badanie wizualne niemowląt", "price": 80 },
+      { "service": "Konsultacja pediatryczna", "price": 150 },
+      { "service": "Szczepienia", "price": 50 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Tomasz Wójcik",
+    "specialization": "Pediatria",
+    "sex": "male",
+    "services": [
+      { "service": "Badanie wizualne niemowląt", "price": 80 },
+      { "service": "Konsultacja pediatryczna", "price": 150 },
+      { "service": "Szczepienia", "price": 50 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Joanna Kaczmarczyk",
+    "specialization": "Psychiatra",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja psychiatryczna", "price": 250 },
+      { "service": "Terapia behawioralna", "price": 300 },
+      { "service": "Farmakoterapia", "price": 150 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Kamil Jankowski",
+    "specialization": "Psychiatra",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja psychiatryczna", "price": 250 },
+      { "service": "Terapia behawioralna", "price": 300 },
+      { "service": "Farmakoterapia", "price": 150 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Paweł Kowalczyk",
+    "specialization": "Psychiatra",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja psychiatryczna", "price": 250 },
+      { "service": "Terapia behawioralna", "price": 300 },
+      { "service": "Farmakoterapia", "price": 150 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Kamil Jankowski",
+    "specialization": "Psychiatra",
+    "sex": "male",
+    "services": [
+      { "service": "Konsultacja psychiatryczna", "price": 250 },
+      { "service": "Terapia behawioralna", "price": 300 },
+      { "service": "Farmakoterapia", "price": 150 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Karolina Jankowska",
+    "specialization": "Psychiatra",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja psychiatryczna", "price": 250 },
+      { "service": "Terapia behawioralna", "price": 300 },
+      { "service": "Farmakoterapia", "price": 150 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Magdalena Jankowska",
+    "specialization": "Psychiatra",
+    "sex": "female",
+    "services": [
+      { "service": "Konsultacja psychiatryczna", "price": 250 },
+      { "service": "Terapia behawioralna", "price": 300 },
+      { "service": "Farmakoterapia", "price": 150 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  },
+  {
+    "name": "Dr. Marta Kowalska",
+    "specialization": "Stomatologia",
+    "sex": "female",
+    "services": [
+      { "service": "Profilaktyczne czyszczenie zębów", "price": 120 },
+      { "service": "Leczenie kanałowe", "price": 400 },
+      { "service": "Wybielanie zębów", "price": 300 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Marta Wiśniewska",
+    "specialization": "Stomatologia",
+    "sex": "female",
+    "services": [
+      { "service": "Profilaktyczne czyszczenie zębów", "price": 120 },
+      { "service": "Leczenie kanałowe", "price": 400 },
+      { "service": "Wybielanie zębów", "price": 300 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Paweł Kowalski",
+    "specialization": "Stomatologia",
+    "sex": "male",
+    "services": [
+      { "service": "Profilaktyczne czyszczenie zębów", "price": 120 },
+      { "service": "Leczenie kanałowe", "price": 400 },
+      { "service": "Wybielanie zębów", "price": 300 }
+    ],
+    "days": ["pn", "pt", "nd"]
+  },
+  {
+    "name": "Dr. Andrzej Nowicki",
+    "specialization": "Stomatologia",
+    "sex": "male",
+    "services": [
+      { "service": "Profilaktyczne czyszczenie zębów", "price": 120 },
+      { "service": "Leczenie kanałowe", "price": 400 },
+      { "service": "Wybielanie zębów", "price": 300 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Iwona Mazur",
+    "specialization": "Stomatologia",
+    "sex": "female",
+    "services": [
+      { "service": "Profilaktyczne czyszczenie zębów", "price": 120 },
+      { "service": "Leczenie kanałowe", "price": 400 },
+      { "service": "Wybielanie zębów", "price": 300 }
+    ],
+    "days": ["wt", "sr", "sb"]
+  },
+  {
+    "name": "Dr. Michał Nowicki",
+    "specialization": "Stomatologia",
+    "sex": "male",
+    "services": [
+      { "service": "Profilaktyczne czyszczenie zębów", "price": 120 },
+      { "service": "Leczenie kanałowe", "price": 400 },
+      { "service": "Wybielanie zębów", "price": 300 }
+    ],
+    "days": ["pn", "czw", "pt"]
+  }
+]
