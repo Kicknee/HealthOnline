@@ -506,6 +506,7 @@ body {
     justify-content: space-around;
   }
   .modal .upperSide .rightSide {
+    width: 45%;
     height: 80%;
   }
   /* .modal .upperSide .rightSide img {
@@ -557,14 +558,14 @@ body {
     padding-top: 10px;
     border: none;
     overflow-x: scroll;
-    /* font-size: 0.9rem; */
+    font-size: 0.9rem;
     align-items: center;
   }
 
   .modal .bottomSide .leftSide fieldset label {
     margin-left: 5px;
   }
-  .hour {
+  .modal .bottomSide .leftSide fieldset .hour {
     padding: 2px 20px;
     border-radius: 15px;
   }
@@ -653,7 +654,7 @@ body {
 @media (max-height: 800px) {
   .modal {
     position: relative;
-    width: 100%;
+    width: 70%;
     min-width: 370px;
     height: 95vh;
   }
