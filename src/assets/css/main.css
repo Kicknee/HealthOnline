@@ -289,6 +289,11 @@ body {
   padding: 20px 10px;
   font-size: 20px;
 }
+.modal .btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
 .modal button {
   width: 300px;
   height: 60px;
@@ -300,7 +305,9 @@ body {
   outline: none;
   border: none;
 }
-
+.modal .close-btn {
+  background-color: #c63e3e;
+}
 .modal-confirmation {
   position: absolute;
   width: 100%;
@@ -549,12 +556,17 @@ body {
     display: flex;
     padding-top: 10px;
     border: none;
-    overflow-y: scroll;
+    overflow-x: scroll;
+    /* font-size: 0.9rem; */
     align-items: center;
   }
 
   .modal .bottomSide .leftSide fieldset label {
     margin-left: 5px;
+  }
+  .hour {
+    padding: 2px 20px;
+    border-radius: 15px;
   }
   .modal .bottomSide .leftSide input[type="text"],
   .modal .bottomSide .leftSide input[type="email"] {
@@ -582,10 +594,10 @@ body {
     font-size: 18px;
   }
   .modal button {
-    width: 200px;
+    width: 150px;
     height: 40px;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: 2px;
     background: #3c8858;
     border-radius: 15px;
@@ -637,4 +649,12 @@ body {
     outline: none;
     border: none;
   } */
+}
+@media (max-height: 800px) {
+  .modal {
+    position: relative;
+    width: 100%;
+    min-width: 370px;
+    height: 95vh;
+  }
 }

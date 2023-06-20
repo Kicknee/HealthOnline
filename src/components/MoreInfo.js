@@ -199,7 +199,20 @@ const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
               })}
             </ul>
           </div>
-          <button type="submit">Umów wizytę</button>
+          <div className="btn-container">
+            <button type="submit">Umów wizytę</button>
+            <button
+              type="button"
+              className="close-btn"
+              onClick={() => {
+                resetCurrDoctor();
+                setConfirmation(false);
+                hideInfo(false);
+              }}
+            >
+              Zamknij okno
+            </button>
+          </div>
         </form>
         {confirmation === true && (
           <div className="modal-confirmation">
