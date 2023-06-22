@@ -355,32 +355,17 @@ body {
   .navbar {
     width: 100%;
     height: 120px;
-    display: flex;
-    gap: 30px;
-    align-items: end;
   }
   .navbar .logo {
     width: 200px;
     height: 100%;
-    display: flex;
-    flex-direction: column;
     font-size: 40px;
-    font-weight: normal;
-    text-align: center;
-    box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.312);
   }
   .navbar .logo > .health {
     width: 100%;
-    height: 50%;
-    background: #3c8858;
-    padding: 10px;
-    color: white;
   }
   .navbar .logo > .online {
     width: 100%;
-    height: 50%;
-    padding: 10px;
-    color: #3c8858;
   }
   .navbar form {
     width: 100%;
@@ -389,10 +374,7 @@ body {
   .navbar form input[type="text"] {
     width: 200px;
     height: 40%;
-    border-radius: 15px;
     font-size: 20px;
-    border: 1px solid #808080;
-    padding: 20px;
   }
   .navbar form .daysFilter {
     width: 80%;
@@ -448,18 +430,12 @@ body {
   .doctorTile {
     width: 300px;
     height: 150px;
-    padding: 10px;
-    background: #ffffff;
-    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3);
   }
   .doctorTile .name {
     font-size: 25px;
-    color: #3c8858;
-    font-weight: 500;
   }
   .doctorTile .specialization {
     font-size: 18px;
-    margin-top: 5px;
   }
   .doctorTile .upperTile {
     width: 100%;
@@ -467,21 +443,15 @@ body {
   }
   .doctorTile .bottomTile {
     width: 100%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
   }
   .doctorTile .days {
     display: flex;
     gap: 3px;
   }
   .doctorTile button {
-    outline: none;
-    border: none;
-    color: #3c8858;
     font-size: 18px;
-    background-color: transparent;
   }
 
   .modal {
@@ -572,23 +542,9 @@ body {
   .modal .bottomSide .leftSide input[type="text"],
   .modal .bottomSide .leftSide input[type="email"] {
     width: 100%;
-    height: 40px;
-    border-radius: 15px;
-    font-size: inherit;
-    border: 1px solid #808080;
-    background-color: rgba(217, 217, 217, 0.3);
-    padding: 20px;
   }
   .modal .bottomSide .services {
-    width: 45%;
-    height: 90%;
-    margin-top: 25px;
-    background-color: #3c8858;
-    border-radius: 15px;
-    color: white;
-    font-size: 25px;
     padding: 15px;
-    overflow-y: scroll;
   }
   .modal .bottomSide .services ul li {
     padding: 8px 0px;
@@ -597,13 +553,7 @@ body {
   .modal button {
     width: 150px;
     height: 40px;
-    color: white;
     font-size: 17px;
-    letter-spacing: 2px;
-    background: #3c8858;
-    border-radius: 15px;
-    outline: none;
-    border: none;
   }
 
   .modal-confirmation {
