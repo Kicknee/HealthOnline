@@ -1,11 +1,11 @@
 # HealthOnline
-https://health-online-kicknee-project.netlify.app/
 #### English description below
 
 <br>
 
 ![healthOnline_gif](https://github.com/Kicknee/HealthOnline/assets/47301333/a2e8607b-1bdf-4e3d-90ca-458b9d2dcd7c)
 
+https://health-online-kicknee-project.netlify.app/
 ### Opis / Description
 
 Jest to frond-end strony zbudowany na Gatsby (React.js), czyli statycznym generatorze stron. Strona jest wyszukiwarką lekarzy. Możemy filtrować wyniki na podstawie imienia lub nazwiska lekarza, jego specjalizacji, oraz dni tygodnia w których dany lekarz przyjmuje pacjentów. Następnie możemy wybrać opcję "więcej", aby przeczytać szczęgóły na temat wykonywach usług przez danego lekarza, czy numeru pokoju w którym przyjmuje pacjentów. W tym samym oknie jest możliwość umówienia wizyty, podajac swoje podstawowe dane jak imię, nazwisko, e-mail i numer telefonu, jak również dzień i godzina wizyty. Po zaakceptowaniu furmularza, wyświetla nam się komunikat potwierdzający wizytę.
