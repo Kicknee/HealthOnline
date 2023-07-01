@@ -19,7 +19,7 @@ This is the front end of the website built with Gatsby (React.js), a static site
 ---
 
 ![filtr2](https://github.com/Kicknee/HealthOnline/assets/47301333/8192918e-4f4f-4342-912a-39ecc07390a5)
-*Możemy zawęzić wyniki wyszukiwania do interesującej nas specjalizacji / We can narrow down the search results to the specialization of our interests*
+*Możemy zawęzić wyniki wyszukiwania do interesującej nas specjalizacji / We can narrow down the search results based on the specialization of our interests*
 
 ---
 
@@ -35,7 +35,7 @@ This is the front end of the website built with Gatsby (React.js), a static site
 
 ![confirmation3](https://github.com/Kicknee/HealthOnline/assets/47301333/650a085b-4912-4aa5-a0e5-71bce2b960a4)
 *Na koniec dostajemy modal z podsumowaniem informacji o nadchodzącej wizyty / 
-Finally, we get a modal with all information about the upcoming visit.*
+Finally, we get a modal with all the information about the upcoming visit.*
 
 ---
 
