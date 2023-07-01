@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import DoctorTile from "../components/DoctorTile";
-import MoreInfo from "../components/MoreInfo";
+import DoctorInfo from "../components/DoctorInfo";
 import "../assets/css/main.css";
 import source from "../assets/tempSource/doctorList.json";
 
@@ -33,6 +33,7 @@ const IndexPage = () => {
       if (doctor.sex === "male") m_count++;
     });
   }, []);
+
   useEffect(() => {
     let newDoctorList = source.filter((doctor) => {
       return doctor.days.some((day) => checkedState[day] === true);
@@ -51,6 +52,13 @@ const IndexPage = () => {
     setDoctorList([...newDoctorList]);
   }, [checkedState, search]);
 
+  useEffect(() => {
+    if (showModal) {
+      document.body.classList.add("stop-scrolling");
+    } else {
+      document.body.classList.remove("stop-scrolling");
+    }
+  }, [showModal]);
   return (
     <>
       <Navbar
@@ -80,7 +88,7 @@ const IndexPage = () => {
         )}
       </div>
       {showModal && (
-        <MoreInfo
+        <DoctorInfo
           hideInfo={setShowModal}
           doctor={doctorList[currDoctor]}
           number={currDoctor}

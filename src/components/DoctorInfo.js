@@ -59,7 +59,7 @@ const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
 
   return (
     <div
-      className="modalBack"
+      className="doctor-info-gray-back"
       onClick={(e) => {
         if (e.currentTarget === e.target) {
           resetCurrDoctor();
@@ -67,7 +67,7 @@ const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
         }
       }}
     >
-      <div className="modal">
+      <div className="doctor-info">
         <div className="upperSide">
           <div className="leftSide">
             <div className="name">{doctor.name}</div>
@@ -193,7 +193,7 @@ const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
               {doctor.services.map((service, indx) => {
                 return (
                   <li key={indx}>
-                    {service.service}: {service.price}zł
+                    {service.service}: <br /> {service.price}zł
                   </li>
                 );
               })}
@@ -215,7 +215,7 @@ const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
           </div>
         </form>
         {confirmation === true && (
-          <div className="modal-confirmation">
+          <div className="modal-confirmation-gray-back">
             <div className="confirmation">
               <div className="confirmation-greeting">
                 Dziękujemy za skorzystanie z naszych usług.
@@ -223,7 +223,7 @@ const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
               <div className="confirmation-info">
                 Twoja wizyta z {doctor.name}{" "}
                 {input["day_"] === "wt" ? "we" : "w"} {days_list[input["day_"]]}{" "}
-                na {input["hour_"]} została potwierdzona.{" "}
+                w godzinach {input["hour_"]} została potwierdzona.{" "}
               </div>
               <button
                 onClick={() => {

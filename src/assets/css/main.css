@@ -12,6 +12,11 @@ body {
   font-family: "Playfair Display", serif;
   font-family: "Roboto", sans-serif;
 }
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
 .navbar {
   width: 100%;
   height: 160px;
@@ -54,10 +59,6 @@ body {
   flex-wrap: wrap;
   font-size: 21px;
 }
-/* .navbar form input {
-  width: 260px;
-  height: 50px;
-} */
 .navbar form input[type="text"] {
   width: 260px;
   height: 50px;
@@ -172,7 +173,7 @@ body {
   content: " >";
 }
 
-.modalBack {
+.doctor-info-gray-back {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -184,19 +185,19 @@ body {
   align-items: center;
 }
 
-.modal {
+.doctor-info {
   position: relative;
   width: 1000px;
   height: 870px;
   background-color: white;
 }
-.modal .upperSide {
+.doctor-info .upperSide {
   width: 100%;
   height: 50%;
   display: flex;
   justify-content: space-between;
 }
-.modal .upperSide .leftSide {
+.doctor-info .upperSide .leftSide {
   width: 50%;
   height: 100%;
   padding-left: 50px;
@@ -204,34 +205,34 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
-.modal .upperSide .rightSide {
+.doctor-info .upperSide .rightSide {
   width: 50%;
   height: 100%;
 }
-.modal .upperSide .leftSide .name {
+.doctor-info .upperSide .leftSide .name {
   font-size: 50px;
   color: #3c8858;
   font-weight: 500;
 }
-.modal .upperSide .leftSide .specialization {
+.doctor-info .upperSide .leftSide .specialization {
   flex: 0.2;
   font-size: 25px;
 }
-.modal .upperSide .leftSide .address {
+.doctor-info .upperSide .leftSide .address {
   flex: 0.6;
 }
-.modal .upperSide .leftSide .hospital {
+.doctor-info .upperSide .leftSide .hospital {
   color: #3c8858;
   font-size: 20px;
   font-weight: 500;
 }
-.modal .upperSide .leftSide .room {
+.doctor-info .upperSide .leftSide .room {
   margin-top: 10px;
 }
-.modal .leftSide {
+.doctor-info .leftSide {
   padding: 10px;
 }
-.modal .bottomSide {
+.doctor-info .bottomSide {
   width: 100%;
   height: 40%;
   display: flex;
@@ -239,7 +240,7 @@ body {
   flex-wrap: wrap;
   gap: 10px;
 }
-.modal .bottomSide .leftSide {
+.doctor-info .bottomSide .leftSide {
   width: 40%;
   height: 100%;
   display: flex;
@@ -247,22 +248,22 @@ body {
   justify-content: space-around;
 }
 
-.modal .bottomSide .leftSide fieldset {
+.doctor-info .bottomSide .leftSide fieldset {
   height: 60px;
   padding-top: 10px;
   border: none;
 }
 
-.modal .bottomSide .leftSide fieldset label {
+.doctor-info .bottomSide .leftSide fieldset label {
   margin-left: 10px;
 }
-.modal .bottomSide .leftSide input[type="radio"] {
+.doctor-info .bottomSide .leftSide input[type="radio"] {
   width: 0px;
   height: 0px;
   visibility: hidden;
 }
-.modal .bottomSide .leftSide input[type="text"],
-.modal .bottomSide .leftSide input[type="email"] {
+.doctor-info .bottomSide .leftSide input[type="text"],
+.doctor-info .bottomSide .leftSide input[type="email"] {
   width: 260px;
   height: 40px;
   border-radius: 15px;
@@ -271,7 +272,7 @@ body {
   background-color: rgba(217, 217, 217, 0.3);
   padding: 20px;
 }
-.modal .bottomSide .services {
+.doctor-info .bottomSide .services {
   width: 45%;
   height: 90%;
   margin-top: 25px;
@@ -282,19 +283,19 @@ body {
   padding: 20px;
   overflow-y: scroll;
 }
-.modal .bottomSide .services ul {
+.doctor-info .bottomSide .services ul {
   list-style: none;
 }
-.modal .bottomSide .services ul li {
-  padding: 20px 10px;
+.doctor-info .bottomSide .services ul li {
+  padding: 15px 10px;
   font-size: 20px;
 }
-.modal .btn-container {
+.doctor-info .btn-container {
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
-.modal button {
+.doctor-info button {
   width: 210px;
   height: 45px;
   color: white;
@@ -305,38 +306,37 @@ body {
   outline: none;
   border: none;
 }
-.modal .close-btn {
+.doctor-info .close-btn {
   background-color: #c63e3e;
 }
-.modal-confirmation {
-  position: absolute;
+.modal-confirmation-gray-back {
+  position: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   top: 0;
   left: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(234, 227, 227, 0.804);
+  background-color: rgba(234, 227, 227, 0.546);
 }
-.modal-confirmation .confirmation {
-  width: 80%;
-  height: 50%;
+.modal-confirmation-gray-back .confirmation {
+  width: 70%;
+  height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
   text-align: center;
-  padding: 25px;
+  padding: 30px;
 }
 
-.modal-confirmation .confirmation-greeting {
+.modal-confirmation-gray-back .confirmation-greeting {
   font-size: 2rem;
   margin-bottom: 35px;
 }
-.modal-confirmation .confirmation-info {
+.modal-confirmation-gray-back .confirmation-info {
   font-size: 1.4rem;
   margin-bottom: 55px;
 }
@@ -377,37 +377,31 @@ body {
     font-size: 20px;
   }
   .navbar form .daysFilter {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     gap: 5px;
   }
   .day {
     padding: 2px 20px;
     border-radius: 10px;
-    color: white;
-    user-select: none;
   }
 
   .tiles {
     justify-content: center;
   }
 
-  .modal-confirmation .confirmation {
-    width: 80%;
+  .modal-confirmation-gray-back .confirmation {
     height: 40%;
   }
-
-  .modal-confirmation .confirmation-greeting {
-    font-size: 1.7rem;
-    margin-bottom: 35px;
-  }
-  .modal-confirmation .confirmation-info {
+  .doctor-info form .services {
     font-size: 1.2rem;
-    margin-bottom: 55px;
   }
-  .modal-confirmation button {
+  .modal-confirmation-gray-back .confirmation-greeting {
+    font-size: 1.7rem;
+  }
+  .modal-confirmation-gray-back .confirmation-info {
+    font-size: 1.2rem;
+  }
+  .modal-confirmation-gray-back button {
     font-size: 1.2rem;
     margin-bottom: 55px;
     width: 250px;
@@ -454,155 +448,103 @@ body {
     font-size: 18px;
   }
 
-  .modal {
-    position: relative;
+  .doctor-info {
     width: 100%;
     min-width: 370px;
     height: 95vh;
+    overflow-y: scroll;
   }
-  .modal .upperSide {
-    width: 100%;
+  .doctor-info .upperSide {
     height: 45%;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
   }
-  .modal .upperSide .leftSide {
-    width: 50%;
-    height: 100%;
+  .doctor-info .upperSide .leftSide {
     padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
   }
-  .modal .upperSide .rightSide {
+  .doctor-info .upperSide .rightSide {
     width: 45%;
     height: 80%;
   }
-  /* .modal .upperSide .rightSide img {
-    object-position: bottom;
-  } */
-  .modal .upperSide .leftSide .name {
+
+  .doctor-info .upperSide .leftSide .name {
     font-size: 30px;
-    color: #3c8858;
-    font-weight: 500;
   }
-  .modal .upperSide .leftSide .specialization {
-    flex: 0.2;
+  .doctor-info .upperSide .leftSide .specialization {
     font-size: 18px;
   }
-  .modal .upperSide .leftSide .address {
+  .doctor-info .upperSide .leftSide .address {
     flex: 0.6;
   }
-  .modal .upperSide .leftSide .hospital {
-    color: #3c8858;
+  .doctor-info .upperSide .leftSide .hospital {
     font-size: 18px;
-    font-weight: 500;
   }
-  .modal .upperSide .leftSide .room {
+  .doctor-info .upperSide .leftSide .room {
     margin-top: 10px;
   }
-  .modal .leftSide {
+  .doctor-info .leftSide {
     padding: 5px;
   }
-  .modal .bottomSide {
-    width: 100%;
-    height: 45%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .modal .bottomSide .leftSide {
-    width: 50%;
-    height: 100%;
-    /* display: flex;
+  .doctor-info .bottomSide {
+    height: auto;
     flex-direction: column;
-    justify-content: space-around; */
+    padding: 10px;
+  }
+  .doctor-info .bottomSide .leftSide {
+    width: 100%;
+    order: 2;
   }
 
-  .modal .bottomSide .leftSide fieldset {
-    height: 60px;
+  .doctor-info .bottomSide .leftSide fieldset {
     width: auto;
     display: flex;
-    padding-top: 10px;
-    border: none;
     overflow-x: scroll;
     font-size: 0.9rem;
     align-items: center;
   }
 
-  .modal .bottomSide .leftSide fieldset label {
+  .doctor-info .bottomSide .leftSide fieldset label {
     margin-left: 5px;
   }
-  .modal .bottomSide .leftSide fieldset .hour {
+  .doctor-info .bottomSide .leftSide fieldset .hour {
     padding: 2px 20px;
     border-radius: 15px;
   }
-  .modal .bottomSide .leftSide input[type="text"],
-  .modal .bottomSide .leftSide input[type="email"] {
+  .doctor-info .bottomSide .leftSide input[type="text"],
+  .doctor-info .bottomSide .leftSide input[type="email"] {
     width: 100%;
   }
-  .modal .bottomSide .services {
+  .doctor-info .bottomSide .services {
+    width: 100%;
     padding: 15px;
+    order: 1;
   }
-  .modal .bottomSide .services ul li {
+  .doctor-info .btn-container {
+    order: 3;
+  }
+  .doctor-info .bottomSide .services ul li {
     padding: 8px 0px;
     font-size: 18px;
   }
-  .modal button {
+  .doctor-info button {
     width: 150px;
     height: 40px;
     font-size: 17px;
   }
 
-  .modal-confirmation {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(234, 227, 227, 0.804);
-  }
-  .modal-confirmation .confirmation {
+  .modal-confirmation-gray-back .confirmation {
     width: 100%;
     height: 50%;
-    display: flex;
-    flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
-    background-color: white;
-    text-align: center;
   }
 
-  .modal-confirmation .confirmation-greeting {
+  .modal-confirmation-gray-back .confirmation-greeting {
     font-size: 1.5rem;
-    margin-bottom: 35px;
   }
-  .modal-confirmation .confirmation-info {
+  .modal-confirmation-gray-back .confirmation-info {
     font-size: 1.1rem;
-    margin-bottom: 55px;
   }
-  /* .modal-confirmation button {
-    font-size: 1.2rem;
-    margin-bottom: 55px;
-    width: 250px;
-    height: 50px;
-    color: white;
-    font-size: 25px;
-    letter-spacing: 2px;
-    background: #3c8858;
-    border-radius: 15px;
-    outline: none;
-    border: none;
-  } */
 }
 @media (max-height: 800px) {
-  .modal {
+  .doctor-info {
     position: relative;
     width: 70%;
     min-width: 370px;
