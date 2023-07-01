@@ -298,7 +298,7 @@
   },
   {
     "name": "Dr. Anna Król",
-    "specialization": "NeStomatologia",
+    "specialization": "Neurologia",
     "sex": "female",
     "services": [
       { "service": "Konsultacja neurologiczna", "price": 250 },
@@ -309,7 +309,7 @@
   },
   {
     "name": "Dr. Jan Kowalczyk",
-    "specialization": "NeStomatologia",
+    "specialization": "Neurologia",
     "sex": "male",
     "services": [
       { "service": "Konsultacja neurologiczna", "price": 250 },
@@ -320,7 +320,7 @@
   },
   {
     "name": "Dr. Łukasz Nowacki",
-    "specialization": "NeStomatologia",
+    "specialization": "Neurologia",
     "sex": "male",
     "services": [
       { "service": "Konsultacja neurologiczna", "price": 250 },
