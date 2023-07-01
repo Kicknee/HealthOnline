@@ -41,7 +41,6 @@ Finally, we get a modal with all the information about the upcoming visit.*
 
 ![healthOnline_mobile_gif](https://github.com/Kicknee/HealthOnline/assets/47301333/477cb299-da96-4cbb-8ae1-c85151585a65)
 ![mobile1](https://github.com/Kicknee/HealthOnline/assets/47301333/aa430136-090d-4557-b73b-01a79237ffe6)
-
 <br>*Mobilna wersja / Mobile version*
 
 ---
