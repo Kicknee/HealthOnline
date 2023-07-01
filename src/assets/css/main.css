@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Inter", sans-serif;
   font-family: "Playfair Display", serif;
@@ -494,9 +495,8 @@ body {
   }
 
   .doctor-info .bottomSide .leftSide fieldset {
-    width: auto;
+    height: 60px;
     display: flex;
-    overflow-x: scroll;
     font-size: 0.9rem;
     align-items: center;
   }
