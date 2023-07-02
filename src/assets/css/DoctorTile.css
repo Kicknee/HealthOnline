@@ -1,0 +1,69 @@
+.doctorTile {
+  width: 450px;
+  height: 150px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.doctorTile .name {
+  font-size: 30px;
+  color: #3c8858;
+  font-weight: 500;
+}
+.doctorTile .specialization {
+  font-size: 20px;
+  margin-top: 5px;
+}
+.doctorTile .upperTile {
+  width: 100%;
+  height: 70%;
+}
+.doctorTile .bottomTile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.doctorTile .days {
+  display: flex;
+  gap: 15px;
+}
+.doctorTile button {
+  outline: none;
+  border: none;
+  color: #3c8858;
+  font-size: 20px;
+  background-color: transparent;
+}
+.doctorTile button::after {
+  content: " >";
+}
+
+@media (max-width: 750px) {
+  .doctorTile {
+    width: 330px;
+    height: 150px;
+  }
+  .doctorTile .name {
+    font-size: 25px;
+  }
+  .doctorTile .specialization {
+    font-size: 18px;
+  }
+  .doctorTile .upperTile {
+    width: 100%;
+    height: 70%;
+  }
+  .doctorTile .bottomTile {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .doctorTile .days {
+    display: flex;
+    gap: 3px;
+  }
+  .doctorTile button {
+    font-size: 18px;
+  }
+}

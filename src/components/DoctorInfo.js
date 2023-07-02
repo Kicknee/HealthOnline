@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { graphql, useStaticQuery } from "gatsby";
+import "../assets/css/DoctorInfo.css";
 
 const query = graphql`
   query MyQuery {
