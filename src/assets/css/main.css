@@ -188,7 +188,7 @@ body {
 
 .doctor-info {
   position: relative;
-  width: 1000px;
+  width: 900px !important;
   height: 870px;
   background-color: white;
 }
@@ -322,8 +322,8 @@ body {
   background-color: rgba(234, 227, 227, 0.546);
 }
 .modal-confirmation-gray-back .confirmation {
-  width: 70%;
-  height: 30%;
+  width: 750px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -417,13 +417,10 @@ body {
   }
 }
 
-@media (max-width: 550px) {
-  .navbar form .daysFilter {
-    visibility: hidden;
-  }
+@media (max-width: 750px){
 
   .doctorTile {
-    width: 300px;
+    width: 330px;
     height: 150px;
   }
   .doctorTile .name {
@@ -451,9 +448,7 @@ body {
 
   .doctor-info {
     width: 100%;
-    min-width: 370px;
     height: 95vh;
-    overflow-y: scroll;
   }
   .doctor-info .upperSide {
     height: 45%;
@@ -485,13 +480,10 @@ body {
     padding: 5px;
   }
   .doctor-info .bottomSide {
-    height: auto;
-    flex-direction: column;
     padding: 10px;
   }
   .doctor-info .bottomSide .leftSide {
-    width: 100%;
-    order: 2;
+    width: 45%;
   }
 
   .doctor-info .bottomSide .leftSide fieldset {
@@ -513,12 +505,8 @@ body {
     width: 100%;
   }
   .doctor-info .bottomSide .services {
-    width: 100%;
+    width: 45%;
     padding: 15px;
-    order: 1;
-  }
-  .doctor-info .btn-container {
-    order: 3;
   }
   .doctor-info .bottomSide .services ul li {
     padding: 8px 0px;
@@ -543,11 +531,43 @@ body {
     font-size: 1.1rem;
   }
 }
-@media (max-height: 800px) {
+@media (max-width: 550px){
+  .navbar form .daysFilter {
+    visibility: hidden;
+  }
+
+
+  .doctor-info {
+    min-width: 370px;
+    overflow-y: scroll;
+  }
+
+  .doctor-info .bottomSide {
+    height: auto;
+    flex-direction: column;
+  }
+  .doctor-info .bottomSide .leftSide {
+    width: 100%;
+    order: 2;
+  }
+  .doctor-info .bottomSide .services {
+    width: 100%;
+    padding: 15px;
+    order: 1;
+  }
+  .doctor-info .btn-container {
+    order: 3;
+  }
+
+}
+@media (max-height: 800px) and (min-width: 550px) {
+  .navbar form .daysFilter {
+    visibility: visible;
+  }
   .doctor-info {
     position: relative;
-    width: 70%;
+    width: 90%;
     min-width: 370px;
-    height: 95vh;
+    height: 100vh;
   }
 }
