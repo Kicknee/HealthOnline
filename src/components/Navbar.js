@@ -1,15 +1,6 @@
 import React, { useState } from "react";
 import "../assets/css/Navbar.css";
 
-// const days = {
-//   pn: "pn",
-//   wt: "wt",
-//   sr: "sr",
-//   czw: "czw",
-//   pt: "pt",
-//   sb: "sb",
-//   nd: "nd",
-// };
 const days = ["pn", "wt", "sr", "czw", "pt", "sb", "nd"];
 
 const Navbar = ({ filter, specificDay, setSearch }) => {
