@@ -8,7 +8,7 @@
       { "service": "Zabieg usunięcia wyrostka robaczkowego", "price": 2500 },
       { "service": "Operacja przepukliny", "price": 1800 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Marta Jankowska",
@@ -19,7 +19,7 @@
       { "service": "Zabieg usunięcia wyrostka robaczkowego", "price": 2500 },
       { "service": "Operacja przepukliny", "price": 1800 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Michał Kwiatkowski",
@@ -30,7 +30,7 @@
       { "service": "Zabieg usunięcia wyrostka robaczkowego", "price": 2500 },
       { "service": "Operacja przepukliny", "price": 1800 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Agata Woźniak",
@@ -41,7 +41,7 @@
       { "service": "Zabieg liposukcji", "price": 3500 },
       { "service": "Powiększenie piersi", "price": 5000 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Robert Kaczmarczyk",
@@ -52,7 +52,7 @@
       { "service": "Zabieg liposukcji", "price": 3500 },
       { "service": "Powiększenie piersi", "price": 5000 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Anna Nowicka",
@@ -63,7 +63,7 @@
       { "service": "Cryoterapia", "price": 120 },
       { "service": "Usunięcie znamion", "price": 350 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Maria Lewandowska",
@@ -74,7 +74,7 @@
       { "service": "Cryoterapia", "price": 120 },
       { "service": "Usunięcie znamion", "price": 350 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Michał Zając",
@@ -85,7 +85,7 @@
       { "service": "Cryoterapia", "price": 120 },
       { "service": "Usunięcie znamion", "price": 350 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Artur Tomczyk",
@@ -96,7 +96,7 @@
       { "service": "Iniekcje botoksu", "price": 800 },
       { "service": "Zabieg oczyszczania skóry", "price": 200 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Iwona Kowalczyk",
@@ -107,7 +107,7 @@
       { "service": "Iniekcje botoksu", "price": 800 },
       { "service": "Zabieg oczyszczania skóry", "price": 200 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Ewelina Zielińska",
@@ -118,7 +118,7 @@
       { "service": "Badanie poziomu hormonów", "price": 250 },
       { "service": "USG tarczycy", "price": 180 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Joanna Sikorska",
@@ -129,7 +129,7 @@
       { "service": "Badanie poziomu hormonów", "price": 250 },
       { "service": "USG tarczycy", "price": 180 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Robert Król",
@@ -140,7 +140,7 @@
       { "service": "Badanie poziomu hormonów", "price": 250 },
       { "service": "USG tarczycy", "price": 180 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Natalia Woźniak",
@@ -151,7 +151,7 @@
       { "service": "Badanie poziomu hormonów", "price": 250 },
       { "service": "USG tarczycy", "price": 180 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Piotr Majewski",
@@ -162,7 +162,7 @@
       { "service": "Badanie poziomu hormonów", "price": 250 },
       { "service": "USG tarczycy", "price": 180 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Aleksandra Nowak",
@@ -173,7 +173,7 @@
       { "service": "Badanie cytologiczne", "price": 100 },
       { "service": "USG narządu rodnego", "price": 250 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Jakub Nowicki",
@@ -184,7 +184,7 @@
       { "service": "Badanie cytologiczne", "price": 100 },
       { "service": "USG narządu rodnego", "price": 250 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Katarzyna Kaczmarek",
@@ -195,7 +195,7 @@
       { "service": "Badanie cytologiczne", "price": 100 },
       { "service": "USG narządu rodnego", "price": 250 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Kamila Majewska",
@@ -206,7 +206,7 @@
       { "service": "Badanie USG ciąży", "price": 250 },
       { "service": "Poród naturalny", "price": 3500 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Mateusz Majewski",
@@ -217,7 +217,7 @@
       { "service": "Badanie USG ciąży", "price": 250 },
       { "service": "Poród naturalny", "price": 3500 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Anna Kowalska",
@@ -228,7 +228,7 @@
       { "service": "Echo serca", "price": 300 },
       { "service": "Konsultacja", "price": 200 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Paweł Nowicki",
@@ -239,7 +239,7 @@
       { "service": "Echo serca", "price": 300 },
       { "service": "Konsultacja", "price": 200 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Piotr Kaczmarczyk",
@@ -250,7 +250,7 @@
       { "service": "Echo serca", "price": 300 },
       { "service": "Konsultacja", "price": 200 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Paulina Nowakowska",
@@ -261,7 +261,7 @@
       { "service": "Echo serca u dzieci", "price": 350 },
       { "service": "Zabieg korekcji wrodzonej wady serca", "price": 6000 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Wojciech Nowakowski",
@@ -272,7 +272,7 @@
       { "service": "Echo serca u dzieci", "price": 350 },
       { "service": "Zabieg korekcji wrodzonej wady serca", "price": 6000 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Agnieszka Zielińska",
@@ -283,7 +283,7 @@
       { "service": "Operacja guza mózgu", "price": 8000 },
       { "service": "Laminektomia", "price": 4000 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Marcin Sikorski",
@@ -294,7 +294,7 @@
       { "service": "Operacja guza mózgu", "price": 8000 },
       { "service": "Laminektomia", "price": 4000 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Anna Król",
@@ -305,7 +305,7 @@
       { "service": "EEG", "price": 400 },
       { "service": "Tomografia komputerowa mózgu", "price": 800 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Jan Kowalczyk",
@@ -316,7 +316,7 @@
       { "service": "EEG", "price": 400 },
       { "service": "Tomografia komputerowa mózgu", "price": 800 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Łukasz Nowacki",
@@ -327,7 +327,7 @@
       { "service": "EEG", "price": 400 },
       { "service": "Tomografia komputerowa mózgu", "price": 800 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Aleksandra Kowalczyk",
@@ -338,7 +338,7 @@
       { "service": "Okulistyka dziecięca", "price": 200 },
       { "service": "Laserowa korekcja wzroku", "price": 2000 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Paweł Sikorski",
@@ -349,7 +349,7 @@
       { "service": "Okulistyka dziecięca", "price": 200 },
       { "service": "Laserowa korekcja wzroku", "price": 2000 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Piotr Szymański",
@@ -360,7 +360,7 @@
       { "service": "Okulistyka dziecięca", "price": 200 },
       { "service": "Laserowa korekcja wzroku", "price": 2000 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Michał Adamczyk",
@@ -371,7 +371,7 @@
       { "service": "Chemioterapia", "price": 2000 },
       { "service": "Radioterapia", "price": 1500 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Piotr Majewski",
@@ -382,7 +382,7 @@
       { "service": "Chemioterapia", "price": 2000 },
       { "service": "Radioterapia", "price": 1500 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Jan Nowak",
@@ -393,7 +393,7 @@
       { "service": "Badanie rentgenowskie", "price": 180 },
       { "service": "Zabieg chirurgiczny", "price": 1000 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Monika Grabowska",
@@ -404,7 +404,7 @@
       { "service": "Badanie rentgenowskie", "price": 180 },
       { "service": "Zabieg chirurgiczny", "price": 1000 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Jan Sikora",
@@ -418,7 +418,7 @@
         "price": 5000
       }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Magdalena Sikorska",
@@ -432,7 +432,7 @@
         "price": 5000
       }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Ewa Malinowska",
@@ -443,7 +443,7 @@
       { "service": "Konsultacja pediatryczna", "price": 150 },
       { "service": "Szczepienia", "price": 50 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Katarzyna Woźniak",
@@ -454,7 +454,7 @@
       { "service": "Konsultacja pediatryczna", "price": 150 },
       { "service": "Szczepienia", "price": 50 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Tomasz Wójcik",
@@ -465,7 +465,7 @@
       { "service": "Konsultacja pediatryczna", "price": 150 },
       { "service": "Szczepienia", "price": 50 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Joanna Kaczmarczyk",
@@ -476,7 +476,7 @@
       { "service": "Terapia behawioralna", "price": 300 },
       { "service": "Farmakoterapia", "price": 150 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Kamil Jankowski",
@@ -487,7 +487,7 @@
       { "service": "Terapia behawioralna", "price": 300 },
       { "service": "Farmakoterapia", "price": 150 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Paweł Kowalczyk",
@@ -498,7 +498,7 @@
       { "service": "Terapia behawioralna", "price": 300 },
       { "service": "Farmakoterapia", "price": 150 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Kamil Jankowski",
@@ -509,7 +509,7 @@
       { "service": "Terapia behawioralna", "price": 300 },
       { "service": "Farmakoterapia", "price": 150 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Karolina Jankowska",
@@ -520,7 +520,7 @@
       { "service": "Terapia behawioralna", "price": 300 },
       { "service": "Farmakoterapia", "price": 150 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Magdalena Jankowska",
@@ -531,7 +531,7 @@
       { "service": "Terapia behawioralna", "price": 300 },
       { "service": "Farmakoterapia", "price": 150 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   },
   {
     "name": "Dr. Marta Kowalska",
@@ -542,7 +542,7 @@
       { "service": "Leczenie kanałowe", "price": 400 },
       { "service": "Wybielanie zębów", "price": 300 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Marta Wiśniewska",
@@ -553,7 +553,7 @@
       { "service": "Leczenie kanałowe", "price": 400 },
       { "service": "Wybielanie zębów", "price": 300 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Paweł Kowalski",
@@ -564,7 +564,7 @@
       { "service": "Leczenie kanałowe", "price": 400 },
       { "service": "Wybielanie zębów", "price": 300 }
     ],
-    "days": ["pn", "pt", "nd"]
+    "days": ["mon", "fri", "sun"]
   },
   {
     "name": "Dr. Andrzej Nowicki",
@@ -575,7 +575,7 @@
       { "service": "Leczenie kanałowe", "price": 400 },
       { "service": "Wybielanie zębów", "price": 300 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Iwona Mazur",
@@ -586,7 +586,7 @@
       { "service": "Leczenie kanałowe", "price": 400 },
       { "service": "Wybielanie zębów", "price": 300 }
     ],
-    "days": ["wt", "sr", "sb"]
+    "days": ["tue", "wed", "sat"]
   },
   {
     "name": "Dr. Michał Nowicki",
@@ -597,6 +597,6 @@
       { "service": "Leczenie kanałowe", "price": 400 },
       { "service": "Wybielanie zębów", "price": 300 }
     ],
-    "days": ["pn", "czw", "pt"]
+    "days": ["mon", "thu", "fri"]
   }
 ]

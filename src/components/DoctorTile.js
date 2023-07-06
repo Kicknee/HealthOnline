@@ -1,6 +1,16 @@
 import React from "react";
 import "../assets/css/DoctorTile.css";
 
+const daysEngPol = [
+  ["mon", "pn"],
+  ["tue", "wt"],
+  ["wed", "sr"],
+  ["thu", "czw"],
+  ["fri", "pt"],
+  ["sat", "sb"],
+  ["sun", "nd"],
+];
+
 const DoctorTile = ({
   showInfo,
   name,
@@ -22,9 +32,10 @@ const DoctorTile = ({
       <div className="bottomTile">
         <div className="days">
           {days.map((day) => {
+            const polishDay = daysEngPol.find((el) => el.includes(day))[1];
             return (
               <div className={`day ${day}`} key={day}>
-                {day.charAt(0).toUpperCase() + day.slice(1)}
+                {polishDay.charAt(0).toUpperCase() + polishDay.slice(1)}
               </div>
             );
           })}

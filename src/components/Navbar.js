@@ -1,7 +1,15 @@
 import React, { useState } from "react";
 import "../assets/css/Navbar.css";
 
-const days = ["pn", "wt", "sr", "czw", "pt", "sb", "nd"];
+const daysEngPol = [
+  ["mon", "pn"],
+  ["tue", "wt"],
+  ["wed", "sr"],
+  ["thu", "czw"],
+  ["fri", "pt"],
+  ["sat", "sb"],
+  ["sun", "nd"],
+];
 
 const Navbar = ({ filter, specificDay, setSearch }) => {
   const [input, setInput] = useState({ name: "", specialization: "" });
@@ -46,21 +54,21 @@ const Navbar = ({ filter, specificDay, setSearch }) => {
         />
         {/* <button type="submit">SZUKAJ</button> */}
         <div className="daysFilter">
-          {days.map((day, indx) => {
+          {daysEngPol.map((day, indx) => {
             return (
               <label
                 key={indx}
-                htmlFor={`${day}`}
-                className={`day ${day}`}
+                htmlFor={`${day[0]}`}
+                className={`day ${day[0]}`}
                 style={
-                  specificDay[day] == false ? { background: "#3d3c3c" } : {}
+                  specificDay[day[0]] === false ? { background: "#3d3c3c" } : {}
                 }
               >
-                {day.charAt(0).toUpperCase() + day.slice(1)}
+                {day[1].charAt(0).toUpperCase() + day[1].slice(1)}
                 <input
                   type="checkbox"
-                  id={`${day}`}
-                  value={specificDay[day]}
+                  id={`${day[0]}`}
+                  value={specificDay[day[0]]}
                   onChange={handleChange}
                 />
               </label>

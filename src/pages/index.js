@@ -9,13 +9,13 @@ const IndexPage = () => {
   const [showModal, setShowModal] = useState(false);
   const [currDoctor, setCurrDoctor] = useState(null);
   const [checkedState, setCheckedState] = React.useState({
-    pn: true,
-    wt: true,
-    sr: true,
-    czw: true,
-    pt: true,
-    sb: true,
-    nd: true,
+    mon: true,
+    tue: true,
+    wed: true,
+    thu: true,
+    fri: true,
+    sat: true,
+    sun: true,
   });
   const [doctorList, setDoctorList] = useState([...source]);
   const [search, setSearch] = useState({ name: "", specialization: "" });

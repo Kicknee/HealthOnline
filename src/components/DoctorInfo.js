@@ -16,14 +16,25 @@ const query = graphql`
   }
 `;
 const days_list = {
-  pn: "poniedziałek",
-  wt: "wtorek",
-  sr: "środę",
-  czw: "czwartek",
-  pt: "piątek",
-  sb: "sobotę",
-  nd: "niedzielę",
+  mon: "poniedziałek",
+  tue: "wtorek",
+  wed: "środę",
+  thu: "czwartek",
+  fri: "piątek",
+  sat: "sobotę",
+  sun: "niedzielę",
 };
+
+const daysEngPol = [
+  ["mon", "pn"],
+  ["tue", "wt"],
+  ["wed", "sr"],
+  ["thu", "czw"],
+  ["fri", "pt"],
+  ["sat", "sb"],
+  ["sun", "nd"],
+];
+
 const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
   const [input, setInput] = useState({
     name: "",
@@ -85,6 +96,7 @@ const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
             <fieldset>
               <legend>Wybierz dzień:</legend>
               {doctor.days.map((day, indx) => {
+                const polishDay = daysEngPol.find((el) => el.includes(day))[1];
                 return (
                   <label
                     key={indx}
@@ -96,7 +108,7 @@ const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
                         : {}
                     }
                   >
-                    {day.charAt(0).toUpperCase() + day.slice(1)}
+                    {polishDay.charAt(0).toUpperCase() + polishDay.slice(1)}
                     <input
                       type="radio"
                       id={`${day}_`}
