@@ -275,6 +275,18 @@
     overflow-y: scroll;
   }
 
+  .doctor-info .upperSide .leftSide {
+    width: 100%;
+  }
+
+  .doctor-info .upperSide .leftSide .name {
+    font-size: 35px;
+  }
+
+  .doctor-info .upperSide .rightSide {
+    display: none;
+  }
+
   .doctor-info .bottomSide {
     height: auto;
     flex-direction: column;
