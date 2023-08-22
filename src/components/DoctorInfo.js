@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { graphql, useStaticQuery } from "gatsby";
+import { daysEngPol } from "../assets/tempSource/daysEngPol";
 import "../assets/css/DoctorInfo.css";
 
 const query = graphql`
@@ -24,16 +25,6 @@ const days_list = {
   sat: "sobotę",
   sun: "niedzielę",
 };
-
-const daysEngPol = [
-  ["mon", "pn"],
-  ["tue", "wt"],
-  ["wed", "sr"],
-  ["thu", "czw"],
-  ["fri", "pt"],
-  ["sat", "sb"],
-  ["sun", "nd"],
-];
 
 const MoreInfo = ({ hideInfo, doctor, number, resetCurrDoctor }) => {
   const [input, setInput] = useState({

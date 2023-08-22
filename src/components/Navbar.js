@@ -1,15 +1,6 @@
 import React, { useState } from "react";
+import { daysEngPol } from "../assets/tempSource/daysEngPol.js";
 import "../assets/css/Navbar.css";
-
-const daysEngPol = [
-  ["mon", "pn"],
-  ["tue", "wt"],
-  ["wed", "sr"],
-  ["thu", "czw"],
-  ["fri", "pt"],
-  ["sat", "sb"],
-  ["sun", "nd"],
-];
 
 const Navbar = ({ filter, specificDay, setSearch }) => {
   const [input, setInput] = useState({ name: "", specialization: "" });

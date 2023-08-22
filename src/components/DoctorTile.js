@@ -1,15 +1,6 @@
 import React from "react";
+import { daysEngPol } from "../assets/tempSource/daysEngPol";
 import "../assets/css/DoctorTile.css";
-
-const daysEngPol = [
-  ["mon", "pn"],
-  ["tue", "wt"],
-  ["wed", "sr"],
-  ["thu", "czw"],
-  ["fri", "pt"],
-  ["sat", "sb"],
-  ["sun", "nd"],
-];
 
 const DoctorTile = ({
   showInfo,
